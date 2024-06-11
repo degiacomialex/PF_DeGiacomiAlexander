@@ -1,0 +1,86 @@
+body {
+  background-color: #f8f9fa;
+  color: #212529;
+  font-family: "Roboto", sans-serif;
+}
+
+.jumbotron {
+  background-color: #2498c6 !important;
+  color: #fff;
+  background-image: url(https://cdn.pixabay.com/photo/2015/08/23/09/19/banner-902581_1280.jpg) !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.navbar-dark {
+  background-color: #070707 !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+  transition: color 0.3s ease;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #6607ff;
+}
+.navbar-dark .navbar-toggler-icon {
+  color: #fff;
+}
+
+.card-title {
+  color: #f8f8f8;
+  font-weight: bold;
+}
+
+.card-text {
+  color: #fff;
+}
+
+.card-img-top {
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.card-img-top:hover {
+  transform: scale(1.05);
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.xander-animation {
+  display: inline-block;
+  animation: slideIn 1s ease forwards;
+}
+
+.card:hover {
+  background-color: #007bff;
+  transition: background-color 0.3s ease;
+}
+.card:hover .card-title, .card:hover .card-text {
+  color: #fff;
+}
+
+.card-title, .card-text {
+  transition: color 0.3s ease;
+}
+
+.card-title:hover, .card-text:hover {
+  color: #ffc107;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  transition: color 0.3s ease;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ffc107;
+}/*# sourceMappingURL=style.css.map */
